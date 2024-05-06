@@ -11,6 +11,7 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     border-bottom: #3f3f3f 1px solid;
+    min-height: 80px;
 }
 
 #logo{
@@ -66,13 +67,16 @@ nav ul li li{
 }
 
 nav ul li a{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #fff;
     padding: 15px 25px;
     font-size: 1.2em;
     box-sizing: border-box;
     background-color: #000000;
+    min-width: 130px;
 }
 
 nav ul ul li a{
@@ -84,4 +88,15 @@ nav li img{
     height: 30px;
     position: relative;
     top: 10px;
+}
+
+#logo img{
+    width: 60px;
+    border-radius: 100px;
+}
+
+#logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
