@@ -15,7 +15,7 @@ body{
 
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
     margin-top: 10px;
@@ -41,4 +41,23 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.corsivo{
+    font-style: italic;
+}
+
+.corrente{
+    color: #060270;
+    font-weight: bold;
+}
+
+#contesto{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border-right: solid 1px #cc0000;
+    border-left: solid 1px #cc0000;
+    padding-left: 20px;
+    padding-right: 20px;
 }
