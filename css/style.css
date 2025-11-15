@@ -63,5 +63,20 @@ nav a:hover{
 }
 
 img{
-    width: 1200px;
+    width: 700px;
+}
+
+#immagini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 0.5fr;
+    margin-top: 10px;
+}
+
+#centra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
